@@ -1,0 +1,23 @@
+#!/bin/sh
+#
+# /etc/rc.d/slim: start/stop slim
+#
+ 
+case $1 in
+start)
+    /usr/local/bin/slim -d
+    ;;
+stop)
+    killall /usr/local/bin/slim
+    ;;
+restart)
+    $0 stop
+    sleep 5
+    $0 start
+    ;;
+*)
+    echo "usage: $0 [start|stop|restart]"
+    ;;
+esac
+ 
+# End of file
