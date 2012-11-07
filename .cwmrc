@@ -1,0 +1,38 @@
+sticky	yes
+
+bind M-r 	exec
+bind CM-t	"xterm -e \"top -s 0.6\""
+bind M-1	grouponly1
+bind M-2	grouponly2
+bind M-3	grouponly3
+bind M-4	grouponly4
+bind M-5	grouponly5
+bind M-9	grouponly9
+
+# Keybindings: commands
+bind 4-Return	"xterm -fg white -bg black -g 100x40"
+bind M4-g "xombrero www.google.com"
+bind 4-x "xombrero"
+bind 4-g "chrome"
+bind 4-f "firefox"
+bind M4-n "mpc next"
+bind M4-s "mpc stop"
+bind M4-p "mpc play"
+
+# group
+autogroup 1 "xterm,XTerm"
+autogroup 2 "xombrero,Xombrero"
+autogroup 2 "Navigator,Firefox"
+autogroup 2 "chrome,Chrome"
+autogroup 3 "epdfview,Epdfview"
+autogroup 4 "Pidgin,Pidgin"
+
+command Web	xombrero
+command IM	pidgin
+command Terminal	"xterm -fg white -bg black -g 100x40"
+command Terminal-Remote	"xterm -fg blue -g 100x40"
+command IRC	"xterm -fg white -bg black -g 135x50 -e irssi"
+command PDF	"epdfview"
+
+#gap 30 0 0 0
+#ignore xclock
