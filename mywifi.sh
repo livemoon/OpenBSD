@@ -14,7 +14,7 @@ shome)
     echo ${NIC_W}
     ;;
 doffice)
-    ifconfig ${NIC_W} nwid "TP-LINK" chan 1 wapkey "123456"
+    ifconfig ${NIC_W} nwid "TP-LINK" chan 1 wpakey "123456"
     dhclient ${NIC_W}
     echo ${NIC_W}
     ;;
