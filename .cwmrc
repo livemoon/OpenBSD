@@ -10,7 +10,7 @@ bind M-5	grouponly5
 bind M-9	grouponly9
 
 # Keybindings: commands
-bind 4-Return	"xterm -fg white -bg black -g 100x40"
+bind 4-Return	"xterm -bg steelblue -fg white -g 100x40"
 bind M4-g "xombrero www.google.com"
 bind 4-x "xombrero"
 bind 4-g "chrome"
@@ -29,8 +29,8 @@ autogroup 4 "Pidgin,Pidgin"
 
 command Web	xombrero
 command IM	pidgin
-command Terminal	"xterm -fg white -bg black -g 100x40"
-command Terminal-Remote	"xterm -fg blue -g 100x40"
+command Terminal	"xterm -bg steelblue -fg white -g 100x40"
+command Terminal-Remote	"xterm -bg black -fg green -g 100x40"
 command IRC	"xterm -fg white -bg black -g 135x50 -e irssi"
 command PDF	"epdfview"
 
