@@ -4,7 +4,7 @@ export XMODIFIERS="@im=SCIM"
 #xsetroot -solid steelblue
 feh --bg-scale /home/deadsun/photos/wallpapers/openbsd.jpg &
 #xclock -geometry -0+0 -d -strftime '%H:%M %b %d %Y' -update 1 &
-gkrellm --geometry +0+0
+gkrellm --geometry +0+0 &
 /usr/local/bin/scim -d
 exec cwm
 #exec /usr/local/bin/spectrwm
