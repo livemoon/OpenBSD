@@ -29,10 +29,12 @@ autogroup 2 "Navigator,Firefox"
 autogroup 2 "chrome,Chrome"
 autogroup 3 "epdfview,Epdfview"
 autogroup 4 "Pidgin,Pidgin"
+autogroup 4 "xchat,Xchat"
 
 command Web	xombrero
 command IM	pidgin
 command Terminal	"xterm -bg steelblue -fg white -g 100x40"
 command Terminal-Remote	"xterm -bg black -fg green -g 100x40"
 command IRC	"xterm -fg white -bg black -g 135x50 -e irssi"
+command IRC-Xchat	xchat
 command PDF	"epdfview"
