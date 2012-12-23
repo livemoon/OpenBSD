@@ -23,7 +23,7 @@ bind M4-s "mpc stop"
 bind M4-p "mpc play"
 
 # group
-autogrpup 0 "gkrellm,Gkrellm"
+autogroup 0 "gkrellm,Gkrellm"
 autogroup 1 "xterm,XTerm"
 autogroup 2 "xombrero,Xombrero"
 autogroup 2 "Navigator,Firefox"
