@@ -1,0 +1,3 @@
+vpn:
+        ! sh /etc/ppp/vpn-default-route.sh
+        add default hisaddr

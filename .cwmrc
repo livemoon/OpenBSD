@@ -1,4 +1,4 @@
-#sticky	yes
+sticky	yes
 
 gap 0 0 110 0
 ignore gkrellm
@@ -23,6 +23,7 @@ bind M4-s "mpc stop"
 bind M4-p "mpc play"
 
 # group
+autogroup 0 "gkrellm,Gkrellm"
 autogroup 1 "xterm,XTerm"
 autogroup 2 "xombrero,Xombrero"
 autogroup 2 "Navigator,Firefox"
